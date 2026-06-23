@@ -1,4 +1,5 @@
 name: CI
+// This workflow runs on every push to the repository. It has two jobs: build and test. The build job checks out the code and runs a simple script, while the test job checks out the code and runs a placeholder for testing.
 
 on: push
 
